@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply rounded-md font-medium text-white text-xl bg-emerald-500 p-4;
+  }
+
+  .btn-white {
+    @apply rounded-md font-medium text-gray-900 text-xl bg-white p-4;
+  }
+
+  .btn-cancel{
+    @apply bg-gray-200;
+  }
+
+  .hover-gray{
+    @apply hover:bg-gray-900 hover:text-white;
+  }
+
+  canvas {
+    @apply rounded-md shadow-lg ;
+
+  }
+
+  .image {
+    @apply rounded-md shadow-lg ;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+}
